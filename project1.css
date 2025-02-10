@@ -1,0 +1,811 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+@font-face {
+    font-family: 'Allura-Regular';
+    src: url(./font/Allura-Regular.ttf)
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.first {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.navbar {
+
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    color: black;
+    font-size: 20px;
+    width: content;
+
+}
+
+.button {
+
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 28px;
+}
+
+.first .right div {
+    height: 100vh;
+    width: 50vw;
+    background-color: rgb(236, 222, 199);
+
+}
+
+.first .left div {
+
+    height: 100vh;
+    width: 50vw;
+    background-color: rgb(223, 175, 116);
+}
+
+.navbar a {
+    font-size: 20px;
+    color: rgb(123, 57, 17);
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 27px;
+
+}
+
+.topic h1 {
+
+    margin-left: 160px;
+    color: rgb(114, 45, 8);
+    font-size: 70px;
+}
+
+.first #monu {
+    margin-left: 160px;
+    margin-top: 200px;
+    font-size: 25px;
+}
+
+#shivi {
+    font-family: Allura-Regular;
+    word-break: break-all;
+    margin-left: 160px;
+    letter-spacing: 2px;
+    margin-top: 18px;
+    font-size: 18px;
+
+}
+
+.topic button {
+    margin-left: 160px;
+    margin-top: 50px;
+    padding: 10px 25px;
+    font-size: 18px;
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+
+}
+
+.topic h3 {
+    margin-left: 40px;
+
+}
+
+.right img {
+    width: 30vw;
+    height: 50vh;
+    margin-top: -550px;
+    display: block;
+    margin-left: 170px;
+}
+
+.second .left {
+
+    width: 160vw;
+    height: 100vh;
+    background-color: rgb(236, 222, 199);
+
+}
+
+.second .right {
+
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(223, 175, 116);
+
+
+}
+
+.second img {
+
+    display: block;
+    margin-top: 90px;
+    margin-left: -220px;
+    width: 30vw;
+    height: 70vh;
+    flex: 1;
+}
+
+.second #monu {
+    margin-top: -400px;
+    margin-left: 380px;
+    color: rgb(108, 49, 18);
+    font-size: 30px;
+}
+
+.second h3 {
+    margin-left: 380px;
+    color: rgb(88, 34, 5);
+    font-size: 45px;
+}
+
+.second blockquote {
+    margin-left: 380px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.second footer {
+    color: black;
+    margin-left: 880px;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+.second button {
+    margin-left: 760px;
+    margin-top: 50px;
+    padding: 5px 30px;
+    font-size: 18px;
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+}
+
+.third {
+    background-color: rgb(236, 222, 199);
+
+}
+
+.third .up {
+
+    width: 85vw;
+    height: 35vh;
+    background-color: rgb(223, 175, 116);
+    margin-top: 130px;
+    margin-left: 200px;
+    position: relative;
+}
+
+.third .down {
+    width: 90vw;
+    height: 35vh;
+    background-color: rgb(223, 175, 116);
+    position: relative;
+    margin-top: 420px;
+    margin-left: -1500px;
+    margin-right: 60px;
+}
+
+.third #monu {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 180px;
+
+}
+
+.ttopic h1 {
+    font-size: 40px;
+    color: rgb(100, 20, 20);
+    margin-left: 180px;
+}
+
+.third .up .shivi {
+    margin-top: 60px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.third .down .shivi {
+    margin-top: 60px;
+    margin-left: 400px;
+    letter-spacing: 2px;
+}
+
+.third .up .head {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.third .down .head {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 1000px;
+
+}
+
+.third .up img {
+    width: 25vw;
+    height: 30vh;
+    margin-left: 900px;
+    margin-top: -165px;
+
+}
+
+.third .down img {
+    width: 25vw;
+    height: 30vh;
+    margin-top: -165px;
+
+}
+
+.third .up button {
+
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -40px;
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+}
+
+.third .down button {
+
+    margin-left: 400px;
+    position: absolute;
+    margin-top: -40px;
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+}
+
+.fourth .right {
+
+    width: 40vw;
+    height: 100vh;
+    background-color: rgb(223, 175, 116);
+    position: relative;
+}
+
+.fourth .left {
+    width: 60vw;
+    height: 100vh;
+    background-color: rgb(236, 222, 199);
+
+}
+
+.fourth .right #monu {
+    font-size: 30px;
+    margin-left: 230px;
+    margin-top: 200px;
+}
+
+.fourth .right h1 {
+    color: rgb(114, 45, 8);
+    font-size: 65px;
+    margin-left: 70px;
+}
+
+.fourth .right img {
+
+
+    margin-top: 135px;
+    margin-left: 0px;
+    width: 180%;
+    height: 40%;
+
+}
+
+.fourth .left img {
+    height: 40%;
+    margin-left: 485px;
+    margin-top: 445px;
+    width: 46%;
+
+}
+
+.fourth .left .hair1 {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 30px;
+
+}
+
+.fourth .left .hair1 p {
+    margin-top: 15px;
+
+}
+
+.fourth .left .hair2 {
+
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 500px;
+
+}
+
+.fourth .left .hair2 p {
+    margin-top: 15px;
+
+}
+
+.fourth .left .hair3 {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 30px;
+
+}
+
+.fourth .left .hair3 p {
+    margin-top: 15px;
+}
+
+.fourth .left .hair4 {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 500px;
+
+
+}
+
+.fourth .left .hair4 p {
+    margin-top: 15px;
+}
+
+.fifth .right {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(223, 175, 116);
+}
+
+.fifth .left {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(236, 222, 199);
+}
+
+.fifth .right #monu {
+    margin-top: 130px;
+    font-size: 20px;
+    margin-left: 160px;
+}
+
+.fifth .right h1 {
+    color: rgb(100, 20, 20);
+    margin-left: 160px;
+    font-size: 60px;
+    margin-top: 5px;
+}
+
+.fifth .right h3 {
+    margin-left: 160px;
+    margin-top: 120px;
+
+}
+
+.fifth .right #shivi {
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.fifth .left img {
+    width: 40vw;
+    height: 40vh;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.sixth {
+    background-color: rgb(236, 222, 199);
+}
+
+.sixth .right {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(223, 175, 116);
+    margin-top: 140px;
+}
+
+.sixth #monu {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 630px;
+    font-size: 20px;
+}
+
+.sixth .right h1 {
+    position: absolute;
+    color: rgb(100, 20, 20);
+    font-size: 40px;
+    margin-left: 630px;
+    margin-top: -70px;
+}
+
+.sixth .right .img1 {
+    position: absolute;
+    margin-top: 80px;
+    height: 180px;
+    width: 180px;
+    margin-left: 290px;
+    border-radius: 50%;
+
+}
+
+
+.sixth .right .img2 {
+    position: absolute;
+    margin-top: 80px;
+    height: 180px;
+    width: 180px;
+    margin-left: 550px;
+    border-radius: 50%;
+
+}
+
+.sixth .right .img3 {
+    position: absolute;
+    margin-top: 80px;
+    height: 180px;
+    width: 180px;
+    margin-left: 830px;
+    border-radius: 50%;
+
+}
+
+
+.sixth .right .img4 {
+    position: absolute;
+    margin-top: 80px;
+    height: 180px;
+    width: 180px;
+    margin-left: 1100px;
+    border-radius: 50%;
+
+}
+
+#member1 {
+    color: rgb(100, 20, 20);
+    margin-top: 290px;
+    margin-left: 290px;
+    font-size: 30px;
+}
+
+#member2 {
+    color: rgb(100, 20, 20);
+    margin-left: 560px;
+    margin-top: -35px;
+    font-size: 30px;
+}
+
+#member3 {
+    color: rgb(100, 20, 20);
+    margin-left: 840px;
+    margin-top: -35px;
+    font-size: 30px;
+}
+
+#member4 {
+    color: rgb(100, 20, 20);
+    margin-left: 1120px;
+    margin-top: -35px;
+    font-size: 30px;
+}
+
+#mem1 {
+    margin-left: 260px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+#mem2 {
+    margin-left: 550px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-size: 17px;
+    margin-top: -80px;
+}
+
+#mem3 {
+    margin-left: 830px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-size: 17px;
+    margin-top: -80px;
+}
+
+#mem4 {
+    margin-left: 1120px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-size: 17px;
+    margin-top: -80px;
+}
+
+.m1 {
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+    margin-left: 290px;
+    margin-top: 50px;
+    padding: 5px 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.m2 {
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+    margin-left: 120px;
+    padding: 5px 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.m3 {
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+    margin-left: 120px;
+    padding: 5px 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.m4 {
+    background-color: rgb(100, 20, 20);
+    color: white;
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+    margin-left: 120px;
+    padding: 5px 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.seventh .main {
+    position: relative;
+}
+
+.seventh {
+    background-color: rgb(223, 175, 116);
+
+}
+
+.seventh #monu {
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 150px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.seventh h1 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 530px;
+    font-size: 60px;
+    color: rgb(100, 20, 20);
+}
+
+.seventh #s1 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.seventh #s2 {
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 630px;
+    font-size: 30px;
+    color: white;
+}
+
+.seventh #s3 {
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 1300px;
+    font-size: 30px;
+    color: rgb(100, 20, 20);
+    color: white;
+
+}
+
+#p1 {
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+
+}
+
+#p2 {
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 480px;
+    font-size: 20px;
+
+}
+
+#p3 {
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 550px;
+    font-size: 20px;
+
+}
+
+#p4 {
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 480px;
+    letter-spacing: 2px;
+
+}
+
+#p5 {
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 550px;
+    letter-spacing: 2px;
+}
+
+#p6 {
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 600px;
+    letter-spacing: 2px;
+}
+
+#p7 {
+
+    position: absolute;
+    margin-left: 1250px;
+    margin-top: 700px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#p8 {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.eighth {
+    background-color: rgb(236, 222, 199);
+    position: relative;
+
+}
+
+.eighth .top {
+    position: absolute;
+    margin-left: 430px;
+    background-color: rgb(223, 175, 116);
+    height: 10%;
+    width: 45%;
+    margin-top: 95px;
+
+}
+
+
+
+.eighth h1 {
+    margin-left: 120px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.eighth .right {
+    position: absolute;
+    background-color: rgb(223, 175, 116);
+    height: 55%;
+    width: 45%;
+    margin-left: 430px;
+    margin-top: 180px;
+}
+
+.form1 {
+    margin-top: 30px;
+    position: absolute;
+    background-color: rgb(236, 222, 199);
+    border-style: solid;
+    color: white;
+    padding-right: 250px;
+    margin-left: 50px;
+    border-color: rgb(236, 222, 199);
+
+}
+
+.form2 {
+    position: absolute;
+    background-color: rgb(236, 222, 199);
+    margin-top: 70px;
+    margin-left: 50px;
+    padding-right: 250px;
+    color: white;
+    border-color: rgb(236, 222, 199);
+    border-style: solid;
+}
+
+.form3 {
+    position: absolute;
+    background-color: rgb(236, 222, 199);
+    margin-top: 115px;
+    margin-left: 50px;
+    padding-right: 250px;
+    color: white;
+    border-color: rgb(236, 222, 199);
+    border-style: solid;
+}
+
+#text {
+    position: absolute;
+    background-color: rgb(236, 222, 199);
+    margin-top: 180px;
+    margin-left: 50px;
+    color: white;
+    border-color: rgb(236, 222, 199);
+    border-style: solid;
+}
+
+.eighth button {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 500px;
+    background-color: rgb(100, 20, 20);
+    border-style: solid;
+    border-color: rgb(100, 20, 20);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
